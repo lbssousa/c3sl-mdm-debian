@@ -1,0 +1,12 @@
+mdm for Debian
+--------------
+
+The original mdm depends on the 'discover' command to discover video card
+drivers and their bus ids. Debian has a more reliable way for this. We look at
+'/usr/share/xserver-xorg/pci/*.ids' to find the device ids and then use 'lspci'
+to find the bus ids.
+
+It is on mdm's TODO to find a better way to discover output devices. When mdm
+finally does this, we should consider removing this patch.
+
+ -- C3SL Multiseat team <multiterminal@c3sl.ufpr.br>  Wed, 15 Oct 2008 10:56:09 -0200

@@ -1,0 +1,28 @@
+This package was debianized by C3SL Multiseat team <multiterminal@c3sl.ufpr.br>
+on Wed, 15 Oct 2008 10:56:09 -0200.
+
+It was downloaded from <http://git.c3sl.ufpr.br>
+
+Upstream Author(s):
+
+    Paulo Ricardo Zanoni <paulo@c3sl.ufpr.br>
+    Aramis Stach Haiduski Fernandes <ashf03@c3sl.ufpr.br>
+    Lucas Nascimento Ferreira <lnf07@c3sl.ufpr.br>
+    Felipe Ribas Silva de Azevedo <frsa08@c3sl.ufpr.br>
+
+Copyright:
+
+    Copyright (C) 2008 C3SL Multiseat Team <multiterminal@c3sl.ufpr.br>
+
+License:
+
+    The package is licensed under GPL 2.0. A copy of this license is located at
+    /usr/share/common-licenses/GPL-2
+
+The Debian packaging is (C) 2008, C3SL Multiseat Team
+<multiterminal@c3sl.ufpr.br> and is licensed under the
+GPL, see `/usr/share/common-licenses/GPL-2'.
+
+Packaging:
+    Copyright (C) 2008 C3SL Multiseat Team <multiterminal@c3sl.ufpr.br>
+    released under GPL 2.0

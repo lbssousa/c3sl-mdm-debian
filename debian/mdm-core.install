@@ -1,0 +1,17 @@
+etc/init.d/mdm
+etc/mdm/devices
+etc/mdm/mdm.conf
+usr/sbin/create-xorg-conf
+usr/sbin/discover-devices
+usr/sbin/mdm-bin
+usr/sbin/mdm-common
+usr/sbin/mdm-start-seat
+usr/sbin/read-devices
+usr/sbin/seat-parent-window
+usr/sbin/write-message
+usr/sbin/xephyr-wrapper
+usr/sbin/xrandr-functions
+usr/share/locale/*
+usr/share/mdm/modes/template
+usr/share/mdm/modes/xephyr-xdmcp
+var/log/mdm

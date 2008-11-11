@@ -1,0 +1,3 @@
+etc/gdm/gdm.conf
+etc/gdm/gdm.conf-custom
+usr/share/mdm/modes/xephyr-gdm

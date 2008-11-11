@@ -1,0 +1,24 @@
+Source: mdm
+Section: x11
+Priority: extra
+Maintainer: C3SL Multiseat team <multiterminal@c3sl.ufpr.br>
+Build-Depends: debhelper (>= 7), dpatch
+Standards-Version: 3.7.3
+Homepage: http://wiki.c3sl.ufpr.br/multiseat
+
+Package: mdm-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, bash, hal, mdm-mode
+Description: mdm core package files
+ mdm is the multiseat (pseudo-)display manager. Despite its name, mdm is
+ acutally a wrapper on the display manager. It automatically configures a
+ multiseat enviroments in machines with multiple outputs. To run mdm, a mode is
+ needed.
+
+Package: mdm-mode-xephyr-gdm
+Architecture: all
+Depends: gdm, xserver-xorg-core, xserver-xephyr (>=1.4), xrandr (>= 1.2)
+Provides: mdm-mode
+Enhances: mdm-core
+Description: Documentation for mdm
+ Allows mdm to run Xephyrs and connect them to local gdm sessions.
