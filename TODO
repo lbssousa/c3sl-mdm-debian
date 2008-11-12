@@ -1,0 +1,5 @@
+- Fix all lintian warnings
+- Fix the way init.d is being installed
+- Study and fix {pre,post}{inst,rm}
+- Ubuntu's and Debian's gdm.conf are different
+- Should we really ship a gdm.conf?
